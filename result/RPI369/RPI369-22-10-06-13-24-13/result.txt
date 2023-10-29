@@ -1,0 +1,31 @@
+database：RPI369
+seed = 1
+learn rate：initial = 0.0001，whenever loss increases, multiply by 0.95
+L2 weight decay = 0.001
+number of epoch ：60
+bachsize ：128
+hop number ：2
+number of ncRNA: 331, number of protein: 338, number of node: 669
+number of positive samples: 369, number of negative samples: 369,number of edges: 738
+number of connected componet : 303
+5-fold cross validation processes:
+
+# ========== Fold 0 ==========
+ACC:0.7865168452262878, PRE:0.0, SEN:0.0, SPE:1.0, MCC:0.0, F1:nan, AUC:0.7334586466165413,AUPR:0.6237335763651553
+
+# ========== Fold 1 ==========
+ACC:0.7865168452262878, PRE:0.0, SEN:0.0, SPE:1.0, MCC:0.0, F1:nan, AUC:0.6601503759398496,AUPR:0.5786843809595275
+
+# ========== Fold 2 ==========
+ACC:0.7765957713127136, PRE:0.0, SEN:0.0, SPE:1.0, MCC:0.0, F1:nan, AUC:0.6950424005218525,AUPR:0.6079955522984035
+
+# ========== Fold 3 ==========
+ACC:0.791208803653717, PRE:0.0, SEN:0.0, SPE:1.0, MCC:0.0, F1:nan, AUC:0.7675438596491228,AUPR:0.6560594655708629
+
+# ========== Fold 4 ==========
+ACC:0.774193525314331, PRE:0.0, SEN:0.0, SPE:1.0, MCC:0.0, F1:nan, AUC:0.7238756613756613,AUPR:0.6374528427176056
+
+ The final performance of NPI-LGAT is:
+ACC: 0.7828947305679321, Sen: 0.0, Spe: 1.0, Pre: nan, MCC: nan, F1: nan,AUC: 0.620785163582311,AUPR: 0.7160141888206055
+
+total 71.12187027931213 seconds
